@@ -27,5 +27,7 @@ finance = pd.DataFrame(data=finance_data[0:, 0:], index=finance_index, columns=f
 quarter_finance = finance.iloc[0:, 4:]
 annual_finance = finance.iloc[0:, :4]
 
+
+
 print(annual_finance)
 print(quarter_finance)
