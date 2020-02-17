@@ -1,4 +1,5 @@
 from bs4 import BeautifulSoup as bs
+
 from selenium import webdriver
 import time
 from selenium.webdriver.common.keys import Keys
